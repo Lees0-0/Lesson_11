@@ -8,7 +8,7 @@ public class StreamOfInfiniteNumbers {
     public static void main(String[] args) {
         long a = 25214903917L;
         long c = 11L;
-        long m = 2^48;
+        long m = (long) Math.pow(2, 48);;
         long seed = 0L;
 
         Stream<Long> streamOfInfiniteNumbers = StreamOfInfiniteNumbers(seed, a, c, m);
